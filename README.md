@@ -6,11 +6,9 @@ A modern Movie Database web application built using **HTML, CSS, and JavaScript*
 
 ## 📸 Preview
 
-> Add screenshots here after uploading your project.
-
 | Home Page | Movie Details |
 |-----------|---------------|
-| *(Screenshot)* | *(Screenshot)* |
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/movie-details.png) |
 
 ---
 
@@ -52,7 +50,11 @@ MoviesHub/
 ├── index.html
 ├── style.css
 ├── script.js 
-│ 
+│__ assets/
+|     |_____screenshots/
+|                |---home.png
+|                |---movie-details.png
+|                |---favourites.png
 └── README.md
 ```
 ## 🌐 Live Demo
@@ -103,15 +105,15 @@ Replace your API key inside `script.js`.
 
 ### 🏠 Home
 
-_Add screenshot here_
+![Home](assets/screenshots/home.png)
 
 ### 🎬 Movie Details
 
-_Add screenshot here_
+![Movie Details](assets/screenshots/movie-details.png)
 
 ### ❤️ Favorites
 
-_Add screenshot here_
+![Favorites](assets/screenshots/favorites.png)
 
 ---
 
