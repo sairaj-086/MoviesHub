@@ -113,7 +113,7 @@ Replace your API key inside `script.js`.
 
 ### ❤️ Favorites
 
-![Favorites](assets/screenshots/favorites.png)
+![Favorites](assets/screenshots/favourites.png)
 
 ---
 
