@@ -55,6 +55,9 @@ MoviesHub/
 │ 
 └── README.md
 ```
+## 🌐 Live Demo
+
+https://sainath-movieshub-project.netlify.app/
 
 ---
 
