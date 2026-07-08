@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <h1 id="logo">🎬 MoviesHub</h1>
+
+    <div class="search-box">
+       <input id="movieSearch" type="search"  placeholder="Search movies...">
+    <button id="search-btn">🔍</button>
+    </div>
+
+    <div class="header-actions">
+       <button id="favorites-btn">❤️ Favorites</button>
+       <button id="home-btn" class="hidden">🏠 Home</button>
+    </div>
+
+    </header>
+
+    <main>
+
+       <h2 id="sectionTitle">Popular Movies</h2>
+
+       <div class="loading hidden">
+           Loading movies...
+       </div>
+       <div  id="genreContainer" class="genre-container">
+
+       </div>
+
+       <div class="movie-grid">
+        <!-- movie cards OR no-results message -->
+          
+
+       </div>
+
+       <div class="pagination">
+            <button id="prev-btn">Previous</button>
+            <span id="page-number">Page 1</span>
+            <button id="next-btn">Next</button>
+        </div>
+
+    </main>
+
+    <div class="movie-modal hidden">
+
+       <div class="movie-content">
+           <!-- Modal HTML will be inserted here -->
+       </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
