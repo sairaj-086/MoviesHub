@@ -2,7 +2,6 @@
 // CONSTANTS
 // ======================================================
 
-const API_KEY = "b10a19be4b4512bba3975a0ee88aabac";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_URL = "https://image.tmdb.org/t/p/w500";
 const PLACEHOLDER_IMAGE =
@@ -18,6 +17,7 @@ const searchBtn = document.getElementById("search-btn");
 const sectionTitle = document.getElementById("sectionTitle");
 const favoritesBtn = document.getElementById("favorites-btn");
 const homeBtn = document.getElementById("home-btn");
+const API_KEY = "";
 
 const movieGrid = document.querySelector(".movie-grid");
 
